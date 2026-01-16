@@ -1,24 +1,24 @@
-# 🧠 Adidas US Sales Analizi (2020–2021): Satış, Kârlılık ve Kanal Performansı (Power BI)
+# Adidas US Sales Analizi (2020–2021): Satış, Kârlılık ve Kanal Performansı (Power BI)
 
-Bu proje, **Adidas US Sales (2020–2021)** veri seti üzerinde Power BI kullanılarak hazırlanmış bir **Business Intelligence (BI)** çalışmasıdır.  
-Amaç; satış performansını, kârlılığı ve kanallara göre (sales_method) davranışı analiz ederek **aksiyon alınabilir içgörüler** üretmektir.
+Bu proje, **Adidas US Sales (2020–2021)** veri seti üzerinde Power BI kullanılarak hazırlanmış bir Business Intelligence (BI) çalışmasıdır.  
+Amaç; satış performansını, kârlılığı ve kanallara göre (sales_method) davranışı analiz ederek aksiyon alınabilir içgörüler üretmektir.
 
 ---
 
-## 🚀 Canlı Dashboard / Dosya
+## Canlı Dashboard / Dosya
 **Power BI dosyası:** `Adidas_US_Sales.pbix`  
 
 **Ekran Görüntüleri:** `screenshots/` klasöründe
 
 ---
 
-## 🧰 Kullanılan Araçlar
-- **Power BI Desktop** (Modelleme, DAX, Görselleştirme)
-- **DAX** (Time Intelligence, KPI ölçüleri)
+## Kullanılan Araçlar
+- Power BI Desktop (Modelleme, DAX, Görselleştirme)
+- Power BI DAX (Time Intelligence, KPI ölçüleri)
 
 ---
 
-## 📌 Proje Adımları
+## Proje Adımları
 
 1. **Veri Modeli (Model View)**
    - `Date` tablosu oluşturuldu ve `invoice_date` ile ilişkilendirildi.
@@ -26,7 +26,7 @@ Amaç; satış performansını, kârlılığı ve kanallara göre (sales_method)
 
 2. **DAX Ölçüleri (Measures)**
    - KPI ölçüleri (Sales, Profit, Units, Avg Price, Profit Margin)
-   - Zaman analizleri: **PM (Previous Month), MoM%, YTD**
+   - Zaman analizleri: PM (Previous Month), MoM%, YTD
 
 3. **Dashboard Tasarımı**
    - Dark tema ile okunabilirlik ve tutarlılık hedeflendi.
@@ -34,7 +34,7 @@ Amaç; satış performansını, kârlılığı ve kanallara göre (sales_method)
 
 ---
 
-## 🧩 Veri Modeli (Özet)
+## Veri Modeli (Özet)
 - **Fact:** Adidas US Sales (satış kayıtları)
 - **Dimension:** Date (zaman analizi), State/Region, Product, Retailer, Sales Method
 
@@ -42,25 +42,25 @@ Amaç; satış performansını, kârlılığı ve kanallara göre (sales_method)
 
 ---
 
-## 🧮 Kullanılan DAX Ölçüleri (Özet)
+## Kullanılan DAX Ölçüleri (Özet)
 
-### ✅ Core KPIs
-- **All Total Sales**
-- **All Total Profit**
-- **All Total Units**
-- **Avg Price**
-- **Profit Margin**
+### Core KPIs
+- All Total Sales
+- All Total Profit
+- All Total Units
+- Avg Price
+- Profit Margin
 
-### ⏱️ Time Intelligence
-- **Sales YTD / Profit YTD** (yıl başından itibaren birikimli)
-- **Sales PM / Profit PM** (önceki ay değeri)
-- **Sales MoM % / Profit MoM %** (aydan aya değişim)
+### Time Intelligence
+- Sales YTD / Profit YTD (yıl başından itibaren birikimli)
+- Sales PM / Profit PM (önceki ay değeri)
+- Sales MoM % / Profit MoM % (aydan aya değişim)
 
-> Not: Veri 2020–2021 aralığında olduğundan kıyaslar ağırlıklı olarak **MoM** ve **yıllar arası görsel karşılaştırma** ile kurgulandı.
+> Not: Veri 2020–2021 aralığında olduğundan kıyaslar ağırlıklı olarak MoM ve yıllar arası görsel karşılaştırma ile kurgulandı.
 
 ---
 
-## 📊 Dashboard İçeriği (Sayfa Özeti)
+## Dashboard İçeriği (Sayfa Özeti)
 
 ### 1) KPI Şeridi
 Genel performansı tek bakışta verir:
@@ -86,7 +86,7 @@ Genel performansı tek bakışta verir:
 
 ---
 
-## 🖼️ Görseller
+## Görseller
 
 ![Dashboard Overview](screenshots/overview.png)
 
@@ -95,3 +95,4 @@ Genel performansı tek bakışta verir:
 ![Top States](screenshots/state_top.png)
 
 ![Profit by Product](screenshots/product_profit.png)
+
